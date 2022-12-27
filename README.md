@@ -6,7 +6,7 @@ hideipnetwork was developed to evade censorship on the web
 
 ---
 
-## Quickstart  |  [中文教程](https://github.com/Hideipnetwork/hideipnetwork-web/wiki/Hideipnetwork-Serverhttps://github.com/Hideipnetwork/hideipnetwork-web/wiki/hnet-web-nodejs%E7%89%88%E6%9C%AC%E6%95%99%E7%A8%8B)
+## Quickstart  |  [中文教程](https://github.com/Hideipnetwork/hideipnetwork-web/wiki/hnet-web-nodejs%E7%89%88%E6%9C%AC%E6%95%99%E7%A8%8B)
 
 * *Need install Node.js 16+*
 
