@@ -6,7 +6,7 @@ hideipnetwork was developed to evade censorship on the web
 
 ---
 
-## Quickstart  |  [中文教程](https://github.com/Hideipnetwork/hideipnetwork-web/wiki/Hideipnetwork-Server)
+## Quickstart  |  [中文教程](https://github.com/Hideipnetwork/hideipnetwork-web/wiki/Hideipnetwork-Serverhttps://github.com/Hideipnetwork/hideipnetwork-web/wiki/hnet-web-nodejs%E7%89%88%E6%9C%AC%E6%95%99%E7%A8%8B)
 
 * *Need install Node.js 16+*
 
@@ -18,7 +18,7 @@ cd hideipnetwork-web
 npm i && npm run start
 ```
 
-**Besides that, you have to deploy api** [hidwipnetwork-admin](https://github.com/Hideipnetwork/hideipnetwork-admin) !!!
+**Besides that, you have to deploy api（if you need set password）** [hidwipnetwork-admin](https://github.com/Hideipnetwork/hideipnetwork-admin) !!!
 
 ## Nginx configuration
 
@@ -38,6 +38,12 @@ location / {
   proxy_set_header Host $host;
 }
 ```
+
+## Donate(TRC20)
+
+![](https://alis.pages.dev/file/7aa0321085f5e963eae40.png)
+
+TQVFVa7Hmbycp1q3r3tUdTL9NzAR1XAy9E
 
 ## contact
 
