@@ -1,6 +1,6 @@
 self.__uv$config = {
-    prefix: `/aHR0cHM6Ly9naXRodWIuY29tL2hpZGVpcG5ldHdvcms=/`,
-    bare: `https://us-ls.hideip.network/`,
+    prefix: `/server/`,
+    bare: `/bare/`,
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/server/server.handler.js',
