@@ -51,7 +51,7 @@ const options = {
 app.use('/', express.static('public', options))
 
 
-// httpServer.listen(port, () => {
-//   console.log(`Example app listening at http://localhost:${port}`)
-// })
-module.exports = app
+httpServer.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
+// module.exports = app
