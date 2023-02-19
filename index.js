@@ -5,13 +5,14 @@ import fs from "fs"
 
 const httpServer = http.createServer();
 const app = express()
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 const bareServer = createBareServer('/bare/', {});
 
 // #############################################################################
 // hideipnetwork service
 httpServer.on('request', (req, res) => {
-
+  
+  console.log(req,233333)
   if (bareServer.shouldRoute(req)) {
     bareServer.routeRequest(req, res);
   } else {
@@ -50,7 +51,7 @@ const options = {
 app.use('/', express.static('public', options))
 
 
-httpServer.listen(port, '0.0.0.0', () => {
-  console.log(`Example app listening at http://localhost:${port}`)
-})
-// module.exports = app
+// httpServer.listen(port, () => {
+//   console.log(`Example app listening at http://localhost:${port}`)
+// })
+module.exports = app
