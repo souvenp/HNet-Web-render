@@ -5,10 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev":"nodemon index.js"
+    "start": "node index.mjs",
+    "dev":"nodemon index.mjs"
   },
-  "type": "module",
   "keywords": [],
   "author": "Hideipnetwork Group",
   "license": "ISC",
