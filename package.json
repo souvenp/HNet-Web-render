@@ -1,21 +1,18 @@
 {
-  "name": "Hideip Network",
-  "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "name": "bare-node",
+  "version": "2.0.1",
+  "description": "bare node",
+  "main": "index.mjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "dev":"nodemon index.js"
+    "dev": "nodemon index.mjs",
+    "start": "node index.mjs"
   },
-  "type": "module",
-  "keywords": [],
-  "author": "Hideipnetwork Group",
-  "license": "ISC",
+  "author": "Jesmora",
+  "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@tomphttp/bare-server-node": "^1.1.0",
-    "express": "^4.18.1",
-    "node-https-socks5-proxy": "^1.1.1",
-    "vite": "^3.1.5"
+    "@tomphttp/bare-server-node": "^1.2.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "socks-proxy-agent": "^7.0.0"
   }
 }
