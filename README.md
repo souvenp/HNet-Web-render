@@ -6,11 +6,11 @@ hideipnetwork was developed to evade censorship on the web
 
 ---
 
-## Quickstart  |  [中文教程](https://github.com/Hideipnetwork/hideipnetwork-web/wiki/Hideipnetwork-Server)
+## Quickstart
 
 
 ```
-git clone -b v1 https://github.com/Hideipnetwork/hideipnetwork-web.git
+git clone -b v2 https://github.com/Hideipnetwork/hideipnetwork-web.git
 ```
 
 ```
