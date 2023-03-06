@@ -7,7 +7,7 @@ let bareServer = function () { };
 config.MODO == "socks5" ? bareServer = socksBare : bareServer = defaultBare;
 
 const app = express();
-app.use('/', express.static("public"));
+app.use(config.WEBDIR, express.static("public"));
 app.use((req, res, next) => {
     res.set('x-timestamp', Date.now())
     res.set('x-powered-by', 'hideip.network')
