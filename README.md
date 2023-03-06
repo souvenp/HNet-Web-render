@@ -29,6 +29,7 @@ if you don`t how to use ,please visite [official.hideip.network](https://officia
 | --- | --- | --- |
 | PORT | 56559 | server port |
 | HOST | 0.0.0.0 | server resolve ip (docker `0.0.0.0`) other `127.0.0.1`|
+| wEBDIR| /| if you need custmon you can set .env `WEBDIR`  |
 | MODO| normal| if you need `socks5 `,change mode to `MODO = socks5`  |
 
 ###### * socks5  files are in the directory `proxy/socks5.txt`
