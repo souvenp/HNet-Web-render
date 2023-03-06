@@ -2,7 +2,7 @@
  * Just replace BAREUR
  */
 
-let BAREURL = 'https://hideip.network/bare/';
+let BAREURL = '/bare/';
 
 /**
  * Non-developers, please modify without authorization, 98% report errors!
