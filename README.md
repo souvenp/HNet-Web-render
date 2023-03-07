@@ -36,7 +36,6 @@ https://hideip.netowrk/?s=#%s
 | --- | --- | --- |
 | PORT | 56559 | server port |
 | HOST | 0.0.0.0 | server resolve ip (docker `0.0.0.0`) other `127.0.0.1`|
-| WEBDIR| / | if you need custom you can set .env `WEBDIR` |
 | MODO| normal| if you need `socks5 `,change mode to `MODO = socks5`  |
 
 ###### * socks5  files are in the directory `proxy/socks5.txt`

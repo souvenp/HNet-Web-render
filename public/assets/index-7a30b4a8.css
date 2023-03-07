@@ -436,7 +436,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     background: linear-gradient(rgba(2, 16, 35, .7), rgba(32, 2, 2, .6));
-    background-image: url(./3-07c1f28e.webp);
+    background-image: url(/assets/3-07c1f28e.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -447,25 +447,25 @@ html, body {
 
 @keyframes svelte-hm5ey0-animation {
     0% {
-        background-image: url(./2-10cf9557.webp)
+        background-image: url(/assets/2-10cf9557.webp)
     }
 
     30% {
-        background-image: url(./3-07c1f28e.webp)
+        background-image: url(/assets/3-07c1f28e.webp)
     }
 
     70% {
-        background-image: url(./4-1059479c.webp)
+        background-image: url(/assets/4-1059479c.webp)
     }
 
     to {
-        background-image: url(./5-29756ae5.webp)
+        background-image: url(/assets/5-29756ae5.webp)
     }
 }
 
 @media screen and (max-width: 768px) {
     .container.svelte-hm5ey0 {
-        background-image: url(./3-07c1f28e.webp);
+        background-image: url(/assets/3-07c1f28e.webp);
         background-position: right;
         background-size: cover;
         background-repeat: no-repeat
