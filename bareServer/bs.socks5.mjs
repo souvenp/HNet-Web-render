@@ -4,7 +4,7 @@ import * as socksFun from '../utils/socks5.mjs';
 
 let bareServer = function () { };
 const data = await socksFun.getProxy();
-const random = Math.floor(Math.random() * data.length + 1);
+const random = Math.floor(Math.random() * data.length);
 const socks5 = data[random]
 
 if (socks5 === undefined) {
